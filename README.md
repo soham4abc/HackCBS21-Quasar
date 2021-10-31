@@ -8,6 +8,40 @@ According to NIEM almost 20 % of patients die due to traffic delays, & in year 2
 <br>
 So we came up with this idea to build a WhatsApp Bot which will help a user to contact an Ambulance, Hospital & nearby Police Station in no time.
 
+## Web Page:
+
+We have created this web page to guide people about to use the bot in times of need: [Visit Here](https://cutt.ly/rRCQRDK)
+<br>
+Below are few glimpses of it: 
+<details>
+<summary>Image 1</summary>
+<br>
+  
+![image](https://user-images.githubusercontent.com/74824675/139568257-9806017c-009d-4aa2-b0a3-d86a5df7f63f.png)
+</details>
+
+<details>
+<summary>Image 2</summary>
+<br>
+  
+![image](https://user-images.githubusercontent.com/74824675/139568291-68008154-4f05-4c0c-a5eb-61f22f71de22.png)
+</details>
+
+<details>
+<summary>Image 3</summary>
+<br>
+  
+![image](https://user-images.githubusercontent.com/74824675/139568363-ce995175-a58f-4954-84d3-844dc25b3443.png)
+</details>
+
+<details>
+<summary>Image 4</summary>
+<br>
+  
+![image](https://user-images.githubusercontent.com/74824675/139568349-226632df-6cec-435e-8bbc-a54779671dd9.png)
+</details>
+
+
 ## What it does:
 It asks a WhatsApp user to share his/her 'current location' and according to that it searches for nearby Ambulances & shares that patient's complete details (with live location)   to the nearest Ambulance.
 <details>
