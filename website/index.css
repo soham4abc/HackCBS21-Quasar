@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Overpass:wght@600&display=swap');
+
+
+.container nav.navbar.navbar-expand-lg.navbar-light {
+    background: linear-gradient(-135deg, #baec81, #0f690b);
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 13px;
+  }
+  
+  .container .navbar-light .navbar-nav .nav-link.active {
+    color: blanchedalmond;
+  }
+  .container .navbar-light .navbar-nav .nav-link.active:hover {
+    color: rgb(7, 19, 73);
+    font-weight: 550;
+  }
+  .container .navbar-light .navbar-nav .nav-link {
+    color: blanchedalmond;
+  }
+  .container .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(7, 19, 73);
+    font-weight: 550;
+  }
+  
+  nav ul li a.dropdown-item {
+    color: rgb(148, 18, 18);
+  }
+  
+  .container .navbar-light .navbar-nav #navbarDropdownMenuLink {
+    color: blanchedalmond;
+  }
+  .container .navbar-light .navbar-nav #navbarDropdownMenuLink:hover {
+    color: rgb(7, 19, 73);
+    font-weight: 550;
+  }
+  
+  nav.navbar-light .navbar-brand {
+    color: rgb(225, 241, 179);
+  }
+  
+  body {
+    background: linear-gradient(135deg, #cff0ae, #f9faf9);
+  }
+  
+  .welcome {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    background-color: rgba(255, 255, 255, 0.37);
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2%;
+    border-radius: 25px;
+  }
+  
+  .welcome h1 {
+    font-family: 'Acme', sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: auto;
+    margin-bottom: 2%;
+    color: rgb(5, 65, 5);
+  }
+  .welcome h2
+  {
+    font-family: 'Acme', sans-serif;
+    color: rgb(10, 97, 10);
+    width: 100%;
+    margin: auto;
+  }
+  .card-group {
+    width: 100%;
+    margin: auto;
+  }
+  .card-body{
+    margin: auto;
+    text-align: center;
+    width: 540px;
+    margin-bottom: 5% ;
+  }
+  .card {
+    background: linear-gradient(135deg, #97f3c5, #e8ff15);
+    margin: 2%;
+    width: 100%;
+    margin: auto;
+  }
+  .images{
+    margin: 1%; 
+    border-radius: 50%;
+    width: 65%;
+    margin: auto;
+    margin-top: 5%;
+  }
+  
+  .signupButton {
+    --glow-color: #baec81;
+    --glow-spread-color: #baec81;
+    --enhanced-glow-color: yellow;
+    --btn-color: #0f690b;
+    outline: none;
+    border: 0.25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 16px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em 0.25em var(--glow-color),
+      0 0 4em 1em var(--glow-spread-color),
+      inset 0 0 0.75em 0.25em var(--glow-color);
+    text-shadow: 0 0 0.5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+  }
+  
+  .signupButton::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: 0.7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
+  }
+  
+  .signupButton:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em 0.25em var(--glow-color),
+      0 0 4em 2em var(--glow-spread-color),
+      inset 0 0 0.75em 0.25em var(--glow-color);
+  }
+  
+  .signupButton:active {
+    box-shadow: 0 0 0.6em 0.25em var(--glow-color),
+      0 0 2.5em 2em var(--glow-spread-color),
+      inset 0 0 0.5em 0.25em var(--glow-color);
+  }
+
+@media screen and (max-width: 400px) {
+  .card-body{
+    width: 100%;
+    margin: auto;
+  }
+  .welcome{
+    margin-bottom: 5%;
+  }
+  .welcome h2{
+    width: 80%;
+    justify-content: justify;
+  }
+  .images{
+    width: 260px;
+    margin: auto;
+    margin-top: 5%;
+  }
+}

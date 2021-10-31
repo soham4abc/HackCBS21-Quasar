@@ -1,0 +1,23 @@
+name: HackCBS
+on: 
+  push: 
+  pull_request: 
+    types: [opened, closed, review_requested, reopened]
+  issues:
+    types: [opened, edited, milestoned]
+  watch:
+    types: [started]
+  fork:
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: sarisia/actions-status-discord@v1
+      if: always()
+      with:
+        webhook: ${{ secrets.DISCORD_WEBHOOK }}
+        name: GitHub Bot
+        avatar_url: 'https://w7.pngwing.com/pngs/670/396/png-transparent-computer-icons-github-icon-design-logo-github-cat-like-mammal-carnivoran-logo-thumbnail.png'
+      

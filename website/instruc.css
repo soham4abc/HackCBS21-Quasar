@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Overpass:wght@600&display=swap');
+
+.container nav.navbar.navbar-expand-lg.navbar-light {
+    background: linear-gradient(-135deg, #baec81, #0f690b);
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 13px;
+  }
+  
+  .container .navbar-light .navbar-nav .nav-link.active {
+    color: blanchedalmond;
+  }
+  .container .navbar-light .navbar-nav .nav-link.active:hover {
+    color: rgb(7, 19, 73);
+    font-weight: 550;
+  }
+  .container .navbar-light .navbar-nav .nav-link {
+    color: blanchedalmond;
+  }
+  .container .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(7, 19, 73);
+    font-weight: 550;
+  }
+  
+  nav ul li a.dropdown-item {
+    color: rgb(148, 18, 18);
+  }
+  
+  .container .navbar-light .navbar-nav #navbarDropdownMenuLink {
+    color: blanchedalmond;
+  }
+  .container .navbar-light .navbar-nav #navbarDropdownMenuLink:hover {
+    color: rgb(7, 19, 73);
+    font-weight: 550;
+  }
+  
+  nav.navbar-light .navbar-brand {
+    color: rgb(225, 241, 179);
+  }
+  
+  body {
+    background: linear-gradient(135deg, #cff0ae, #f9faf9);
+  }
+
+.container h1
+{
+    font-family: "acme";
+    color: darkgreen;
+}
+.container p
+{
+    font-family: "acme";
+    color: darkgreen;
+}
+
+.container img
+{
+    width: 15%;
+}
